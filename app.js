@@ -8,7 +8,7 @@ let data =
             description: `Tartu Ülikooli peahoone asub Tartu kesklinnas aadressil Ülikooli tänav 18. See on üks silmapaistvamaid klassitsistliku arhitektuuri näiteid Eestis. Viimasel kümnendil on õppetegevus hajutatud üha enam ülikooli teistesse hoonetesse, andes peahoones maad ülikooli administratsioonile.`,
             placeName: "Tartu Ülikooli peahoone",
             category:`Ülikool`,
-            image:`https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Tartu_%C3%9Clikooli_peahoone_2012.jpg/1920px-Tartu_%C3%9Clikooli_peahoone_2012.jpg`,
+            image:`images/peahoone.jpg`,
         },
         {
             location: {
@@ -18,7 +18,7 @@ let data =
             `,
             placeName: "Delta hoone",
             category:`Ülikool`,
-            image:`https://lh3.googleusercontent.com/p/AF1QipOe4aFN0M67RSzQ1ACHR9ZJUW1e2ghq7J03Az3b=s680-w680-h510            `,
+            image:`images/delta.jpg`,
         },
         {
             location: {
@@ -28,7 +28,7 @@ let data =
             `,
             placeName: "Füüsikumi hoone",
             category:`Ülikool`,
-            image:`https://astlanda.ee/wp-content/uploads/2015/04/52.jpg
+            image:`images/physicum.jpg
             `,
         },
         {
@@ -39,7 +39,7 @@ let data =
             `,
             placeName: "Vanemuise 46",
             category:`Ülikool`,
-            image:`https://upload.wikimedia.org/wikipedia/commons/e/e2/Biogeo1.jpg
+            image:`images/vanemuise.jpg
             `,
         },
         {
@@ -52,7 +52,7 @@ let data =
             `,
             placeName: "Illegaard",
             category:`Ööelu`,
-            image:`https://teele.luts.ee/sites/default/files/linnapildid/teelefoto0000812.jpg
+            image:`images/illegaard.jpg
             `,
         },
         {
@@ -61,7 +61,7 @@ let data =
             `,
             placeName: "Kivi",
             category:`Ööelu`,
-            image:`https://lh3.googleusercontent.com/p/AF1QipPNDSOZKDkjCvrOVwHZClfN0VXYAbFIRjvurLMP=s1600-w400
+            image:`images/kivi.jpg
             `,
         },
         {
@@ -72,7 +72,7 @@ let data =
             `,
             placeName: "Genialistide klubi",
             category:`Ööelu`,
-            image:`https://f10.pmo.ee/ApKtr6636ioJOqd1M8h9vCa4qz0=/685x0/filters:focal(1315x683:3095x2212)/nginx/o/2017/09/09/7081821t1h1d20.jpg
+            image:`images/gen.jpg
             `,
         },
         {
@@ -81,7 +81,7 @@ let data =
             `,
             placeName: "Trepp",
             category:`Ööelu`,
-            image:`https://f11.pmo.ee/zA2zKeZpeoRpm9kf6WZfHhr609g=/1200x630/filters:focal(2522x1787:2687x1902)/nginx/o/2021/02/28/13655692t1hc5b5.jpg
+            image:`images/trepp.jpg
             `,
         },
         {
@@ -94,7 +94,7 @@ let data =
             `,
             placeName: "Naiiv",
             category:`Ööelu`,
-            image:`https://f7.pmo.ee/MxtvPiuxpB6JoRh_CWxWGqnN0jc=/685x0/nginx/o/2020/07/21/13225302t1h91f9.jpg
+            image:`images/naiiv.jpg
             `,
         },
         {
@@ -103,7 +103,7 @@ let data =
             `,
             placeName: "Möku",
             category:`Ööelu`,
-            image:`https://visittartu.com/sites/default/files/vemedia/9208_3011e7090c7308d003de91a8b6402b72.jpg
+            image:`images/möku.jpg
             `,
         },
         {
@@ -112,7 +112,7 @@ let data =
             `,
             placeName: "Tasku Gym!",
             category:`Sport`,
-            image:`https://tasku.ee/wp-content/uploads/2022/04/JC-15.jpg
+            image:`images/gym.jpg
             `,
         },
         {
@@ -125,7 +125,7 @@ let data =
             `,
             placeName: "Lemongym!",
             category:`Sport`,
-            image:`https://www.lemongym.ee/file/2018/01/05/Jegos_4_2.jpg
+            image:`images/lemon.jpg
             `,
         },
         {
@@ -136,7 +136,7 @@ let data =
             `,
             placeName: "Fasters",
             category:`Toitlustus`,
-            image:`https://www.turismiweb.ee/files/Photos/fasters-aardla-1363.jpg
+            image:`images/fasters.jpg
             `,
         },
         {
@@ -145,16 +145,16 @@ let data =
             `,
             placeName: "Turu Mcdonald's",
             category:`Toitlustus`,
-            image:`https://f11.pmo.ee/2lIKNH5V8k3j7hzi8A3y1-ydHL4=/685x0/filters:focal(73x105:499x262)/nginx/o/2010/12/21/487708t1h86f6.jpg
+            image:`images/mcdonalds.jpg
             `,
         },
         {
             location: {lat:58.377121869389505, lng:26.721294727338808},
-            description: `artu Ülikooli Raamatukogu on teadusraamatukogu, mis toetab Tartu Ülikooli õppe- ja teadustööd, tagades juurdepääsu Eesti kultuuripärandile ja maailma inforessurssidele.
+            description: `Tartu Ülikooli Raamatukogu on teadusraamatukogu, mis toetab Tartu Ülikooli õppe- ja teadustööd, tagades juurdepääsu Eesti kultuuripärandile ja maailma inforessurssidele.
             `,
             placeName: "TÜ raamatukogu",
-            category:`Ööelu`,
-            image:`https://landcapital.ee/wp-content/uploads/2017/05/turaamatukogu-01.jpg
+            category:`Ülikool`,
+            image:`images/raamatukogu.jpg
             `,
         },
     ]
