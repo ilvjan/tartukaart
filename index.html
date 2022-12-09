@@ -1,55 +1,51 @@
 <!doctype html>
-<html>
-
+<html lang="et">
 <head>
-	<title>document</title>
+	<title>Tartu Kaart</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css">
+	<link rel="jquery" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css">
 	<link rel="stylesheet" type="text/css"
 		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<link rel="stylesheet" href="mapcss.css">
 
 </head>
 
 <body>
 	<div class="page">
-		<header tabindex="0" style="z-index: 10;top:0"><img src="images/logo_resized.png"></header>
-		<div id="nav-container" style="z-index: 10">
-			<div class="button" tabindex="0" style="position: fixed;
-			top: -5px;
-			left: 10px;">
+		<header tabindex="0" ><a href="index.html"><img src="images/logo_resized.png" alt="logo"></a></header>
+		<div id="nav-container">
+			<div class="button" tabindex="0" >
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</div>
-			<div id="nav-content" tabindex="0" style="z-index: 10;    position: fixed;
-			top: 0;
-			left: 0;">
+			<div id="nav-content" tabindex="0" >
 				<nav class='animated bounceInDown'>
 					<div class="image">
-						<img src="images/logo.png">
+						<img src="images/logo.png" alt="logo">
 					</div>
 					<ul>
-						<li class='sub-menu'><i class="fas fa-angle-right"></i><a href='#'>Kaart</a>
+						<li class='sub-menu'><a href='index.html'>Kaart</a>
 
 
 						</li>
-						<li class='sub-menu'><i class="fas fa-angle-right"></i><a href='#message'>Kohad</a>
+						<li class='sub-menu'><i class="fas fa-angle-right"></i><a href='#'>Kohad</a>
 
 							<ul>
-								<li><a href='#'>Kool</a></li>
-								<li><a href='#'>Ööelu</a></li>
-								<li><a href='#'>Sport</a></li>
+								<li><a href='kool.html'>Kool</a></li>
+								<li><a href='ööelu.html'>Ööelu</a></li>
+								<li><a href='sport.html'>Sport</a></li>
+								<li><a href='toit.html'>Toit</a></li>
 							</ul>
 
 						</li>
-						<li class='sub-menu'><i class="fas fa-angle-right"></i><a href='#'>Meist</a>
+					
 
 
 
-						</li>
 
 
 
@@ -63,13 +59,13 @@
             <button class="btn active" id="btn-all" data-filter="all">View All</button>
         </div>
 		<div id="map"></div>
-		<h1>Jan is below</h1>
+
 	</div>
-	<script src="https://maps.googleapis.com/maps/api/js?key="></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq5X7-B3AzlpYorUUTH3JiuwfHmUK2iFM"></script>
 
 	<script src="app.js"></script>
 
-	<script type="text/javascript">
+	<script >
 		$('.sub-menu ul').hide();
 		$(".fas").click(function () {
 			$(this).parent(".sub-menu").children("ul").slideToggle("100");
